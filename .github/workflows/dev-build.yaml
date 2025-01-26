@@ -7,9 +7,9 @@ permissions:
 on:
 
   push:
-    tags:
-      - 'v*'
-      - 'latest'
+    # tags:
+    #   - 'v*'
+    #   - 'latest'
     paths:
       - 'Dockerfile'
       - '!README.md'

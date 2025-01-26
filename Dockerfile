@@ -7,7 +7,5 @@ WORKDIR /app
 # Copy the Python script from the host to the container
 COPY src/main.py .
 
-RUN "echo 'Hello World!'"
-
 # Specify the command to run the Python script
 CMD ["python", "main.py"]
